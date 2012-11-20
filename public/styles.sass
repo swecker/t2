@@ -1,0 +1,39 @@
+@import "fonts", "colors"
+
+body
+  background-color: $black
+  font-size: 1.2em
+  font-family: 'Dosis'
+  font-weight: 400
+  color: $b5
+  padding: 0
+  margin: 0
+
+.wrapper
+  width: 900px
+  margin: 0 auto
+
+.content
+  margin: 0
+  padding: 1px
+  background-color: $blackGrey
+  &>div
+    margin: 16px
+    padding: 16px
+    background-color: $blackSilver
+
+h1, h2, h3, h4, h5, th
+  font-family: 'Sansation'
+
+h1.logo
+  font-weight: 200
+  margin: 10px 20px
+
+a
+  text-decoration: none
+  color: $brownGold
+  -webkit-transition: 200ms ease-in-out
+a:hover
+  color: $gold
+  text-shadow: 0px 0px 2px $gold
+

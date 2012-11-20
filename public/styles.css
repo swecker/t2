@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/dosis-extralight.eot");
+  src: url("fonts/dosis-extralight.eot?#iefix") format("embedded-opentype"), url("fonts/dosis-extralight.woff") format("woff"), url("fonts/dosis-extralight.ttf") format("truetype"), url("fonts/dosis-extralight.svg#Dosis") format("svg"); }
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/dosis-light.eot");
+  src: url("fonts/dosis-light.eot?#iefix") format("embedded-opentype"), url("fonts/dosis-light.woff") format("woff"), url("fonts/dosis-light.ttf") format("truetype"), url("fonts/dosis-light.svg#Dosis") format("svg"); }
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/dosis-medium.eot");
+  src: url("fonts/dosis-medium.eot?#iefix") format("embedded-opentype"), url("fonts/dosis-medium.woff") format("woff"), url("fonts/dosis-medium.ttf") format("truetype"), url("fonts/dosis-medium.svg#Dosis") format("svg"); }
+
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Inconsolata.eot");
+  src: url("fonts/Inconsolata.eot?#iefix") format("embedded-opentype"), url("fonts/Inconsolata.woff") format("woff"), url("fonts/Inconsolata.ttf") format("truetype"), url("fonts/Inconsolata.svg#Inconsolata") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Sansation_Regular.eot");
+  src: url("fonts/Sansation_Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Regular.woff") format("woff"), url("fonts/Sansation_Regular.ttf") format("truetype"), url("fonts/Sansation_Regular.svg#SansationRegular") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/Sansation_Light.eot");
+  src: url("fonts/Sansation_Light.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Light.woff") format("woff"), url("fonts/Sansation_Light.ttf") format("truetype"), url("fonts/Sansation_Light.svg#SansationLight") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/Sansation_Bold.eot");
+  src: url("fonts/Sansation_Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Bold.woff") format("woff"), url("fonts/Sansation_Bold.ttf") format("truetype"), url("fonts/Sansation_Bold.svg#SansationBold") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/Sansation_Italic.eot");
+  src: url("fonts/Sansation_Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Italic.woff") format("woff"), url("fonts/Sansation_Italic.ttf") format("truetype"), url("fonts/Sansation_Italic.svg#SansationItalic") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: italic;
+  font-weight: 200;
+  src: url("fonts/Sansation_Light_Italic.eot");
+  src: url("fonts/Sansation_Light_Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Light_Italic.woff") format("woff"), url("fonts/Sansation_Light_Italic.ttf") format("truetype"), url("fonts/Sansation_Light_Italic.svg#SansationLightLightItalic") format("svg"); }
+
+@font-face {
+  font-family: "Sansation";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/Sansation_Bold_Italic.eot");
+  src: url("fonts/Sansation_Bold_Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Sansation_Bold_Italic.woff") format("woff"), url("fonts/Sansation_Bold_Italic.ttf") format("truetype"), url("fonts/Sansation_Bold_Italic.svg#SansationBoldItalic") format("svg"); }
+
+body {
+  background-color: black;
+  font-size: 1.2em;
+  font-family: "Dosis";
+  font-weight: 400;
+  color: #ddf4fc;
+  padding: 0;
+  margin: 0; }
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto; }
+
+.content {
+  margin: 0;
+  padding: 1px;
+  background-color: #161616; }
+  .content > div {
+    margin: 16px;
+    padding: 16px;
+    background-color: #292929; }
+
+h1, h2, h3, h4, h5, th {
+  font-family: "Sansation"; }
+
+h1.logo {
+  font-weight: 200;
+  margin: 10px 20px; }
+
+a {
+  text-decoration: none;
+  color: #f5e3cb;
+  -webkit-transition: 200ms ease-in-out; }
+
+a:hover {
+  color: #fffdc1;
+  text-shadow: 0px 0px 2px #fffdc1; }
